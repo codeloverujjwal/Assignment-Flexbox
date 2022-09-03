@@ -1,0 +1,72 @@
+*{
+    margin: auto;
+}
+
+/* Flex box assignment css starts here */
+.flexcontainer{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    min-width: 300px;
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+.row h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 50px;
+    height: auto;
+}
+.row.color1 h2{
+    background-color: #e3f4f9;
+    border-bottom: 2px solid #b4d7e4;
+}
+.row.color2 h2{
+    background-color: #fff8e3;
+    border-bottom: 2px solid #f7e2ab;
+}
+.row.color3 h2{
+    background-color: #feedef;
+    border-bottom: 2px solid #d9aba7;
+}
+.color1{
+   border-radius: 10px;
+   border: 2px solid #b4d7e4;
+}
+.color2{
+    border-radius: 10px;
+    border: 2px solid #f7e2ab;
+}
+.color3{
+    border-radius: 10px;
+    border: 2px solid #d9aba7;
+}
+.inner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 250px;
+    height: auto;
+}
+.wrapper {
+    font-size: 2em;
+    text-align: center;
+}
+.row.color1 .wrapper, .row.color1 h2 {
+    color: #3a8ea7;
+}
+.row.color2 .wrapper , .row.color2 h2 {
+    color: #faa534;
+}
+.row.color3 .wrapper, .row.color3 h2{
+    color: #cd4b35;
+}
+/* Flex box assignment css ends here */
